@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Mollie Taylor'
 SITENAME = u'Maps & Apps'
-SITEURL = ''
+SITEURL = 'http://blog.mollietaylor.com'
 
 PATH = 'content'
 
@@ -22,7 +22,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('About Mollie Link Will Go Here', 'http://mollietaylor.com/'),)
+# LINKS = (('About Mollie', 'pages/about/'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -36,6 +36,9 @@ STATIC_PATHS = ['images', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['better_code_samples', 'better_codeblock_line_numbering', 'feed_summary', 'pelican-gist']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
