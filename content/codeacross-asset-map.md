@@ -56,7 +56,7 @@ I was the leader of the sub-group creating the map. We were tasked with making a
 
 ####Day 1
 
-On day one, the research and data cleaning sub-group created a google doc and drive folder and began collecting data to add to the map. Our coding sub-group got the preliminary map set up, and I threw in a couple data layers that I already had handy from previous map projects. The Leaflet newbies ran through a quick tutorial and we looked at alternative mapping platforms like Mapbox and Tilemill. Also on Day 1, Bryan and Jimmy in the coding sub-group started working on a geocoder in Ruby, since we knew some of the data the researchers would provide us wouldn't have coordinates.
+On day one, the research and data cleaning sub-group created a google doc and drive folder and began collecting data to add to the map. Our coding sub-group got the preliminary map set up, and I threw in a couple data layers that I already had handy from previous map projects. The Leaflet newbies ran through a quick tutorial and we looked at alternative mapping platforms like Mapbox and Tilemill. Also on day 1, Bryan and Jimmy in the coding sub-group started working on a geocoder in Ruby, since we knew some of the data the researchers would provide us wouldn't have coordinates.
 
 <blockquote class="twitter-tweet" lang="en"><p>Had a lot of fun today hacking maps w/ <a href="https://twitter.com/codeforatlanta">@codeforatlanta</a> -- can&#39;t wait to do it all over again tomorrow. <a href="https://twitter.com/hashtag/CodeAcross?src=hash">#CodeAcross</a></p>&mdash; jimmylocoding (@jimmylocoding) <a href="https://twitter.com/jimmylocoding/status/569337434460135425">February 22, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -65,7 +65,7 @@ In our Leaflet map, we made use of a few libraries to help make our job of mappi
 
 This is what our map looked like at the end of day 1:
 
-![Day 1 Progress]({filename}/images/codeacross-day1.png)
+![Day 1 Progress]({filename}/images/codeacross-day1.png){.size-auto}
 
 ####Day 2
 
@@ -76,7 +76,7 @@ On day 2, the research and data sub-group continued finding data sources, and se
 
 In the coding sub-group, Jimmy completed the geocoder and used it on a few of the data sources. We added those to the map, as well as adding several other point layers that already had coordinate data. During the night, I had implemented queries of the  [Foursquare API](https://developer.foursquare.com/), so we spent some time on day 2 thinking of what kinds of venues we wanted to pull from Foursquare. We added government buildings, entertainment, residential buildings, and food from the Foursquare API. I also learned how to do image overlays, so we threw in a couple of maps the data group had gathered. Finally, we added in some shapefiles the data group had found. All-in-all, we had 14 map data layers at the end of day 2. When we presented our work, it seemed people were impressed by how much stuff is in South Downtown and at how quickly we were able to assemble and map so much of it.
 
-![Day 2]({filename}/images/codeacross-day2.png)
+![Day 2]({filename}/images/codeacross-day2.png){.size-auto}
 
 I was equally impressed with the branding/storytelling and participatory groups. The branding and storytelling group thought up neighborhood slogans and set up a preliminary website to host information about South Downtown. The participatory group came up with a basic survey that can be filled out via text or web and thought up ways to advertise the survey and engage individuals with interactive street displays. I was greatly impressed by how much we got done in a weekend project. 
 
